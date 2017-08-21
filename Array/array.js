@@ -84,11 +84,11 @@ let arr = [1,2,3,4,5,6];
 for(let index of arr.keys()){
     console.log(index);
 }// =>0 1 2 3 4 5
-console.log('******************');
+
 for(let value of arr.values()){
     console.log(value)
 } // 1 2 3 4 5 6 chrome5.7目前不支持该方法
-console.log('******************');
+
 for(let entry of arr.entries()){
     console.log(entry);
 } // [0,1] [1,2] [2,3] [3,4] [4,5] [5,6]
